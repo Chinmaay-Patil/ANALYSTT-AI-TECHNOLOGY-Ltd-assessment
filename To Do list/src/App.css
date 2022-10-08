@@ -1,0 +1,56 @@
+.strike {
+    font-size: large;
+    font-weight: bold;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    padding: 2%;
+    height: 100vh;
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+
+.InputForm {
+    margin-top: 2%;
+    display: flex;
+ 
+
+}
+
+.formSubmitButton {
+    margin-left: 4%;
+    align-self: center;
+}
+
+.List {
+
+    width: 80%;
+    overflow: scroll;
+    margin-top: 2%;
+    overflow-x: hidden;
+}
+
+.Td {
+
+    width: 20px;
+
+}
+
+.Button {
+    margin-left: 4%;
+}
+
+.footer {
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4%;
+}
